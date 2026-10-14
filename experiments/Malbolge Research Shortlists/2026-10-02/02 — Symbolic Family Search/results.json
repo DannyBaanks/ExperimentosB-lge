@@ -103,7 +103,7 @@
       "``<`"
     ],
     "hit_count": 80,
-    "elapsed": 0.060971736907958984
+    "elapsed": 0.0565340518951416
   },
   "symbolic_family": {
     "strategy": "two_level_symbolic_family_search",
@@ -199,7 +199,7 @@
       "``<`"
     ],
     "hit_count": 80,
-    "elapsed": 0.1218724250793457
+    "elapsed": 0.11990618705749512
   },
   "metrics": {
     "hits_parity": true,

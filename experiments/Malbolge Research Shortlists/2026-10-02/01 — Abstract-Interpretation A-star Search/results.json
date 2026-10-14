@@ -103,7 +103,7 @@
       "``<`"
     ],
     "hit_count": 80,
-    "elapsed": 0.060576677322387695
+    "elapsed": 0.05836915969848633
   },
   "abstract_astar": {
     "strategy": "abstract_astar",
@@ -196,7 +196,7 @@
       "``<`"
     ],
     "hit_count": 80,
-    "elapsed": 0.11883234977722168
+    "elapsed": 0.12216997146606445
   },
   "metrics": {
     "hits_parity": true,

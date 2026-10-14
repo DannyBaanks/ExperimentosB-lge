@@ -14,7 +14,7 @@
       "tier": "high_level_structured",
       "synthesized_artifact": "[('LOAD_IMM', 114), ('EMIT', 0)]",
       "evaluations_to_hit": 1,
-      "time_sec": 1.9073486328125e-06,
+      "time_sec": 1.6689300537109375e-06,
       "oracle_verified": true
     },
     {
@@ -30,7 +30,7 @@
       "tier": "exotic_self_modifying_cryptographic",
       "synthesized_artifact": "((<`",
       "evaluations_to_hit": 16,
-      "time_sec": 0.0007464885711669922,
+      "time_sec": 0.0007460117340087891,
       "oracle_verified": true
     }
   ],

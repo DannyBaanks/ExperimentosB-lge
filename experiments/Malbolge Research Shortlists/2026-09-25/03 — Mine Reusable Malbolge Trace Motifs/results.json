@@ -38,13 +38,13 @@
       "scratch": {
         "hit": "(=<`",
         "evaluations": 52,
-        "time_sec": 0.0023992061614990234
+        "time_sec": 0.002316713333129883
       },
       "motif_augmented": {
         "motif_used": "(=",
         "hit": "(=<`",
         "evaluations": 16,
-        "time_sec": 0.0007483959197998047
+        "time_sec": 0.0007488727569580078
       },
       "evaluation_reduction_ratio": 0.6923076923076923,
       "eval_speedup": 3.25,
@@ -56,13 +56,13 @@
       "scratch": {
         "hit": "(=`:",
         "evaluations": 59,
-        "time_sec": 0.0032072067260742188
+        "time_sec": 0.002785205841064453
       },
       "motif_augmented": {
         "motif_used": "(=",
         "hit": "(=`:",
         "evaluations": 23,
-        "time_sec": 0.002042055130004883
+        "time_sec": 0.0011589527130126953
       },
       "evaluation_reduction_ratio": 0.6101694915254238,
       "eval_speedup": 2.5652173913043477,

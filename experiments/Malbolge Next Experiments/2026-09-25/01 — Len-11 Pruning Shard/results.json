@@ -14,14 +14,14 @@
     "hits_count": 0,
     "hit_codes": [],
     "total_steps": 8186,
-    "elapsed_seconds": 0.01852130889892578
+    "elapsed_seconds": 0.018151521682739258
   },
   "pruned": {
     "hits_count": 0,
     "hit_codes": [],
     "total_steps": 7143,
     "pruned_count": 177,
-    "elapsed_seconds": 0.018184185028076172
+    "elapsed_seconds": 0.017589092254638672
   },
   "metrics": {
     "false_negatives_count": 0,

@@ -20,7 +20,7 @@
   "baseline_unguided": {
     "first_hit_eval": 16,
     "total_hits": 80,
-    "time_sec": 0.05942702293395996
+    "time_sec": 0.05979156494140625
   },
   "mode_a_conservative_priority": {
     "first_hit_eval": 3,
@@ -28,7 +28,7 @@
     "speedup_ratio": 5.333333333333333,
     "solutions_lost": 0,
     "completeness_preserved": true,
-    "time_sec": 0.060399770736694336
+    "time_sec": 0.05999898910522461
   },
   "mode_b_bounded_guidance": {
     "candidates_evaluated": 346,
@@ -36,7 +36,7 @@
     "first_hit_eval": 3,
     "total_hits": 50,
     "false_negatives_count": 30,
-    "time_sec": 0.017952919006347656
+    "time_sec": 0.01650547981262207
   },
   "size_bound_estimator": {
     "predicted_size_bound": 4,
