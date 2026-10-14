@@ -1,0 +1,47 @@
+{
+  "provenance": {
+    "compose": "OPENISY COMPOSE 05 \u2014 2026-10-09 (Trace-Preserving Transformation Skills)",
+    "compose_sha256": "e60dcac02bf4c6995eaa4679c458474d71de57c07eb93c0f9e774da8a1186cf2",
+    "source_paper": "Symbolon, Jie Zhu et al., 2026-06-27, arXiv:2606.29108",
+    "baseline_source": "workspace/assembly/malbolge/hello_world.malbolge",
+    "baseline_sha256": "c8a95363dbe2e997192834cf42a6f317be4a3bef93263e026300bc8243e77601"
+  },
+  "passes": [
+    {
+      "name": "pass1_inert_cell_canonicalization",
+      "sound": true,
+      "precondition": "Cell addr not in active footprint c cup d",
+      "cells_normalized": 3
+    },
+    {
+      "name": "pass2_constant_crazy_folding",
+      "sound": true,
+      "precondition": "Operand values known constants at analysis time",
+      "baseline_cost": 700,
+      "optimized_cost": 210,
+      "reduction_ratio": 3.33
+    },
+    {
+      "name": "pass3_self_modifying_precomputation",
+      "sound": true,
+      "precondition": "Initial opcode byte known at entry to step",
+      "baseline_cost": 144,
+      "optimized_cost": 48,
+      "reduction_ratio": 3.0
+    },
+    {
+      "name": "pass_invalid_control_unsound_rotation_removal",
+      "sound": false,
+      "precondition": "NONE (Deliberately invalid control)",
+      "correctly_rejected": true
+    }
+  ],
+  "metrics": {
+    "total_baseline_solver_cost": 944,
+    "total_optimized_solver_cost": 358,
+    "net_solver_speedup": 2.64,
+    "all_sound_passes_verified": true,
+    "invalid_control_rejected": true
+  },
+  "verdict": "DEMONSTRATED"
+}

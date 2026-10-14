@@ -1,0 +1,10 @@
+{
+  "files": {
+    "COMPOSE_PROVENANCE.md": "059e1d401c50d223d0e17b976edb3db5a8af3c1665964a958ec98c31dd7d519a",
+    "GUIA.md": "b4a13f83e725d3bb0c833f11c8c56d06636f551b418f7dde91b36a37c6c78396",
+    "REPORT.md": "5711b59d229c34e7cc6460ee3d86b36f515f5662ded3b848f05984b16f8cdd31",
+    "len11_semantic_pruning.py": "fefbe4a4ed716e9f816216c4aad80ffda9d4d7b0eeae366e6241c71d7dfb2df7",
+    "results.json": "7b7336096a5f6c57e1339a8c6778c47a8f86360da89fe8db655d149b4b724bc2",
+    "test_len11_pruning.py": "db00305303b56f7c232ed4391e0b67537c1645ca2338de2924979242809ab140"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "source_file": "/home/danny/Development/ISyCo/workspace/assembly/malbolge/quine_lutter.malbolge",
+  "raw_bytes": 59852,
+  "code_bytes": 59032,
+  "newline_bytes": 820,
+  "target_cell": -1,
+  "delta": 0,
+  "steps": 69547437,
+  "halted": true,
+  "total_out": 59852,
+  "char_out": 59032,
+  "newline_out": 820,
+  "d_29454_out_count": 59032,
+  "d_29282_out_count": 820,
+  "output_sha256": "dca8476f8b70c8462c32f661f63c5f8b1ad6c33946b3c7a9a35186c824117d98"
+}

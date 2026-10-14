@@ -1,0 +1,9 @@
+{
+  "COMPOSE_PROVENANCE.md": "a2a1241cdff6ad683592d1b0e6d83c52e2178b57b8c17aa109eb90bee832b344",
+  "GUIA.md": "e2af6e6edae2dcb7766bb0f097d548165732093abb936d2d4ab375be803472ab",
+  "REPORT.md": "a8e888cdd98c4f4ed280c96644da5f2fecdc7eaea7abc9e3c1dba1b333890185",
+  "epoch_runner.c": "f90dd9d0151f29e01ef36dddc7e5e2e089eaf2ebb98e37275fb37db3dec82256",
+  "results.json": "867cab41b22d01a5c235247b06cd4263cba0ce77fd143e7c88593612205e5880",
+  "semantic_epoch_bridge.py": "b5cc333128afb0bcb3e4f23904cbc9424320f06ea38071c72ece89f5b9f0c5e6",
+  "test_epoch_bridge.py": "90f6d9a9fe335afdfa8dd66150609eb44e462a917c4b8ba601ae1f9509bbd566"
+}

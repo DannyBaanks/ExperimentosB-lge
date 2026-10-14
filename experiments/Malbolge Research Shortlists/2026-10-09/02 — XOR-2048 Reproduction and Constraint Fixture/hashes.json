@@ -1,0 +1,15 @@
+{
+  "COMPOSE_PROVENANCE.md": "01674ccacc64cc01cbdd26a69643a59d94e028d103609a9a9445fa48d70242b7",
+  "GUIA.md": "c7942e242d21b9e5fa3e9b8ab5f3bbac0a3b50cc25f6ec5fd0f4040e898dd350",
+  "REPORT.md": "d8a7defa5a91b17c418bc33f40ee8fe3b074fb78500638af3a7cfdb557ea4a03",
+  "c_evaluator.c": "5ab28ef4dbee0df20dc5c31f79cd3e6f6215a73595f9fda55bf31cdb25c0b01d",
+  "c_results.json": "9049017da494a472d75420bc2a770e950121bfaaf94518d100d98ff2aaadf349",
+  "gpt-6-astra.mal": "cb28ec05a4d9d8780273ed79eb49a6be4b9fcd7427e68578e5758f860a4a4015",
+  "reproduce_xor2048.py": "fe038bf746cf97dbfa52898ad8788116008eecb6681aa102efcc5a569f88d0be",
+  "results.json": "395b246b4e0bffcdd47ff01993b3a9efbbd090a8b732358f123c71a62f5cebb8",
+  "test_xor2048.py": "4538441f47a7f317a8d779707c5a7f7001b10d4caf8a5f458b9fa1b30c700838",
+  "upstream_allowed.txt": "af68c35a8b2230f6f7bc209358855c9a42281b439ea57283dc8927ec05725e86",
+  "upstream_config.json": "1cf43926ca8a01d597687367d268da954dc41ab8e054556b7674b2e31af557d4",
+  "upstream_layout.json": "d795c03868265a0f674e1cf90b77a510b5d6794b934d486101ac8fca2bb7cba7",
+  "upstream_manifest.json": "d927da6ec39b2f76318498df88fab23c6b462c3e490b24b9afb47e5c10cd03dc"
+}

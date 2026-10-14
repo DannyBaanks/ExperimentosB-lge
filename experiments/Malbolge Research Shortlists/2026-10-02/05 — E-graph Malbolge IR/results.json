@@ -1,0 +1,23 @@
+{
+  "provenance": {
+    "compose": "05 \u2014 Compose \u2014 E-graph Malbolge IR (2026-10-02)",
+    "compose_sha256": "605f36aa07604a6a4e589cb8c21cea1a179caf0b888fb6f2da5a0de9a227512e",
+    "upstream_status": "UNPOPULATED_TEMPLATE_ANOMALY"
+  },
+  "audit_evidence": {
+    "file_path": "/home/danny/Development/ISyCo Git/EXPERIMENTOSB\u00d6LGE/OPENAI_Composes_2026-10-09/Malbolge Research Shortlists/2026-10-02/05 \u2014 Compose \u2014 E-graph Malbolge IR.docx",
+    "file_size": 6485,
+    "sha256": "605f36aa07604a6a4e589cb8c21cea1a179caf0b888fb6f2da5a0de9a227512e",
+    "paragraph_count": 0,
+    "table_count": 0,
+    "total_extracted_text_chars": 0,
+    "is_blank_template": true
+  },
+  "gates": {
+    "source_file_exists": true,
+    "sha256_verified": true,
+    "blank_anomaly_proven": true,
+    "zero_deletion_enforced": true
+  },
+  "verdict": "AUDIT_RECORDED_BLANK_ANOMALY"
+}

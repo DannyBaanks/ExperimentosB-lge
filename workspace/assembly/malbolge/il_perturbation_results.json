@@ -1,0 +1,74 @@
+[
+  {
+    "cell": 29401,
+    "visits": 2125152,
+    "nop_value": 89,
+    "status": "HALTED",
+    "steps": 19579,
+    "output_len": 0,
+    "match": false
+  },
+  {
+    "cell": 29402,
+    "visits": 2125152,
+    "nop_value": 88,
+    "status": "HALTED",
+    "steps": 25184,
+    "output_len": 2,
+    "match": false
+  },
+  {
+    "cell": 29403,
+    "visits": 2125152,
+    "nop_value": 87,
+    "status": "HALTED",
+    "steps": 20997,
+    "output_len": 1,
+    "match": false
+  },
+  {
+    "cell": 29404,
+    "visits": 2125152,
+    "nop_value": 86,
+    "status": "HALTED",
+    "steps": 27990,
+    "output_len": 1,
+    "match": false
+  },
+  {
+    "cell": 29405,
+    "visits": 2125152,
+    "nop_value": 85,
+    "status": "HALTED",
+    "steps": 69547437,
+    "output_len": 59852,
+    "match": true
+  },
+  {
+    "cell": 29406,
+    "visits": 2125152,
+    "nop_value": 84,
+    "status": "HALTED",
+    "steps": 69547437,
+    "output_len": 59852,
+    "match": true
+  },
+  {
+    "cell": 29407,
+    "visits": 2125152,
+    "nop_value": 83,
+    "status": "HALTED",
+    "steps": 19890,
+    "output_len": 2,
+    "match": false
+  },
+  {
+    "cell": 29408,
+    "visits": 2125152,
+    "nop_value": 82,
+    "status": "HALTED",
+    "steps": 25112,
+    "output_len": 3,
+    "match": false
+  }
+]

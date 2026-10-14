@@ -1,0 +1,26 @@
+{
+  "experiment": "Observable VM Conformance Matrix",
+  "provenance": "Malbolge Research Shortlists / 2026-10-09 / Compose 07",
+  "verdict": "DEMONSTRATED",
+  "tier_discrimination_demonstrated": true,
+  "comparisons": [
+    {
+      "pair": "Python Canonical VM vs Native C Classic VM",
+      "workload": "hello_world.malbolge",
+      "tiers": {
+        "tier1_weak_output": true,
+        "tier2_medium_trajectory": true,
+        "tier3_strong_machine_state": true
+      }
+    },
+    {
+      "pair": "Python Canonical VM vs Divergent Mock VM",
+      "workload": "hello_world.malbolge",
+      "tiers": {
+        "tier1_weak_output": true,
+        "tier2_medium_trajectory": false,
+        "tier3_strong_machine_state": false
+      }
+    }
+  ]
+}

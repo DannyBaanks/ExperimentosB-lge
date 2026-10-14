@@ -1,0 +1,10 @@
+{
+  "files": {
+    "COMPOSE_PROVENANCE.md": "73d89ed2b4c421da13b55cdbc98f201658222485163bba445f9f4dd54d12c9d3",
+    "GUIA.md": "7f28a519cac37dfedbc5d0ef2b1b0278a85074868a81460fed78343eabd2bd41",
+    "REPORT.md": "7a0806042cdc17544221ed9896288faf528d295311a1270687b7d6d79787e849",
+    "dual_cell_kernel_synthesis.py": "0cb3b27395cd071e657da24110442c3318d9cdadc4058a26146a7369f5126220",
+    "results.json": "0720cc64f821357f5c65f1d0f23dfad13eb808307f2605cbc0801be37dc60653",
+    "test_dual_cell_synthesis.py": "3ce237ab50c76776029ceb465b23a6437ba2b722e0ccae6fcef53824e15cf749"
+  }
+}

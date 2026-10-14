@@ -1,0 +1,61 @@
+{
+  "provenance": {
+    "compose": "02 \u2014 Compose \u2014 Prior-Guided Bounded Search (2026-09-25)",
+    "compose_sha256": "6d43391cb75eaecf1f22f1b92559b7e55cededc9a904470ed067b5dbe467ea20",
+    "source_ref": "Brevis, arXiv:2608.02162"
+  },
+  "config": {
+    "alphabet": [
+      "(",
+      "=",
+      "<",
+      "`",
+      ":",
+      "9"
+    ],
+    "max_len": 4,
+    "target_byte": 114,
+    "total_candidates": 1296
+  },
+  "uniform_lexicographical": {
+    "first_hit_eval": 16,
+    "total_hits": 80,
+    "cumulative_hits": {
+      "10%": 3,
+      "25%": 14,
+      "50%": 35,
+      "75%": 59,
+      "100%": 80
+    },
+    "elapsed": 0.05899190902709961
+  },
+  "prior_guided": {
+    "first_hit_eval": 3,
+    "total_hits": 80,
+    "cumulative_hits": {
+      "10%": 30,
+      "25%": 50,
+      "50%": 59,
+      "75%": 70,
+      "100%": 80
+    },
+    "elapsed": 0.06013226509094238
+  },
+  "metrics": {
+    "first_hit_speedup": 5.333333333333333,
+    "completeness_proven": true,
+    "zero_candidates_excluded": true,
+    "solution_parity": true,
+    "hit_at_25_percent_budget": {
+      "uniform": 14,
+      "prior_guided": 50
+    }
+  },
+  "gates": {
+    "completeness_only_ordering_changed": true,
+    "exact_solution_parity": true,
+    "faster_first_hit": true,
+    "higher_early_budget_coverage": true
+  },
+  "verdict": "DEMONSTRATED"
+}

@@ -1,0 +1,78 @@
+{
+  "provenance": {
+    "compose": "03 \u2014 Compose \u2014 Mine Reusable Malbolge Trace Motifs (2026-09-25)",
+    "compose_sha256": "0520cf88e3090696944e3ebdb5ab54b23b6864104bb146aa66f6a5ec692e8995",
+    "source_ref": "GrowLibm, arXiv:2603.24812"
+  },
+  "mining": {
+    "mined_motifs_count": 36,
+    "top_motif": "(=",
+    "top_motif_frequency": 6,
+    "motif_library": [
+      {
+        "motif": "(=",
+        "frequency": 6
+      },
+      {
+        "motif": "==",
+        "frequency": 6
+      },
+      {
+        "motif": "<=",
+        "frequency": 6
+      },
+      {
+        "motif": "`=",
+        "frequency": 6
+      },
+      {
+        "motif": ":=",
+        "frequency": 6
+      }
+    ]
+  },
+  "held_out_benchmarks": [
+    {
+      "target_name": "Held-Out Target 57 ('9')",
+      "target_byte": 57,
+      "scratch": {
+        "hit": "(=<`",
+        "evaluations": 52,
+        "time_sec": 0.0023992061614990234
+      },
+      "motif_augmented": {
+        "motif_used": "(=",
+        "hit": "(=<`",
+        "evaluations": 16,
+        "time_sec": 0.0007483959197998047
+      },
+      "evaluation_reduction_ratio": 0.6923076923076923,
+      "eval_speedup": 3.25,
+      "canonical_replay_verified": true
+    },
+    {
+      "target_name": "Held-Out Target 60 ('<')",
+      "target_byte": 60,
+      "scratch": {
+        "hit": "(=`:",
+        "evaluations": 59,
+        "time_sec": 0.0032072067260742188
+      },
+      "motif_augmented": {
+        "motif_used": "(=",
+        "hit": "(=`:",
+        "evaluations": 23,
+        "time_sec": 0.002042055130004883
+      },
+      "evaluation_reduction_ratio": 0.6101694915254238,
+      "eval_speedup": 2.5652173913043477,
+      "canonical_replay_verified": true
+    }
+  ],
+  "gates": {
+    "held_out_evaluations_reduced": true,
+    "canonical_replay_verified": true,
+    "non_empty_motif_library": true
+  },
+  "verdict": "DEMONSTRATED"
+}

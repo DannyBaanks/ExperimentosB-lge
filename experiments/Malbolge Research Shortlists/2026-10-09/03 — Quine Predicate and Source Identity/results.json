@@ -1,0 +1,54 @@
+{
+  "experiment": "Quine Predicate and Source Identity",
+  "provenance": "Malbolge Research Shortlists / 2026-10-09 / Compose 03",
+  "verdict": "DEMONSTRATED",
+  "distinct_acceptance_sets_demonstrated": true,
+  "acceptance_sets": {
+    "P1_EXACT_BYTES": [
+      "CANONICAL_LUTTER_QUINE"
+    ],
+    "P2_NORMALIZED_CODE": [
+      "CANONICAL_LUTTER_QUINE",
+      "STRIPPED_WHITESPACE_QUINE"
+    ],
+    "P4_RUNTIME_IMAGE_FIXEDPOINT": []
+  },
+  "evaluation_matrix": [
+    {
+      "fixture": "CANONICAL_LUTTER_QUINE",
+      "raw_length": 59852,
+      "output_length": 59852,
+      "P1_EXACT_BYTES": true,
+      "P2_NORMALIZED_CODE": true,
+      "P3_BEHAVIORAL_QUINE": true,
+      "P4_RUNTIME_IMAGE_FIXEDPOINT": false
+    },
+    {
+      "fixture": "STRIPPED_WHITESPACE_QUINE",
+      "raw_length": 59032,
+      "output_length": 59852,
+      "P1_EXACT_BYTES": false,
+      "P2_NORMALIZED_CODE": true,
+      "P3_BEHAVIORAL_QUINE": false,
+      "P4_RUNTIME_IMAGE_FIXEDPOINT": false
+    },
+    {
+      "fixture": "MUTATED_1BYTE_QUINE",
+      "raw_length": 59852,
+      "output_length": 59852,
+      "P1_EXACT_BYTES": false,
+      "P2_NORMALIZED_CODE": false,
+      "P3_BEHAVIORAL_QUINE": false,
+      "P4_RUNTIME_IMAGE_FIXEDPOINT": false
+    },
+    {
+      "fixture": "HELLO_WORLD",
+      "raw_length": 89,
+      "output_length": 15,
+      "P1_EXACT_BYTES": false,
+      "P2_NORMALIZED_CODE": false,
+      "P3_BEHAVIORAL_QUINE": false,
+      "P4_RUNTIME_IMAGE_FIXEDPOINT": false
+    }
+  ]
+}

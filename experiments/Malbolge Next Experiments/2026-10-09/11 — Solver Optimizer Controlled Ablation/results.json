@@ -1,0 +1,402 @@
+{
+  "experiment": "Solver Optimizer Controlled Ablation",
+  "provenance": "Malbolge Next Experiments / 2026-10-09 / Compose 11",
+  "verdict": "DEMONSTRATED",
+  "target_output": "H",
+  "h11_demonstrated": true,
+  "results_by_arm": {
+    "RANDOM_SEARCH": {
+      "n_trials": 20,
+      "budget_per_trial": 400,
+      "success_rate": 0.0,
+      "median_evals_to_hit": 400.0,
+      "mean_evals_to_hit": 400,
+      "hits_count": 0,
+      "runtime_seconds": 0.127,
+      "trials": [
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        }
+      ]
+    },
+    "SIMULATED_ANNEALING": {
+      "n_trials": 20,
+      "budget_per_trial": 400,
+      "success_rate": 0.0,
+      "median_evals_to_hit": 400.0,
+      "mean_evals_to_hit": 400,
+      "hits_count": 0,
+      "runtime_seconds": 0.043,
+      "trials": [
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        }
+      ]
+    },
+    "SEMANTIC_GUIDED": {
+      "n_trials": 20,
+      "budget_per_trial": 400,
+      "success_rate": 0.1,
+      "median_evals_to_hit": 400.0,
+      "mean_evals_to_hit": 374.6,
+      "hits_count": 2,
+      "runtime_seconds": 5.225,
+      "trials": [
+        {
+          "hit": true,
+          "evals_to_hit": 174,
+          "program": ">'<$:?",
+          "output": "H"
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": true,
+          "evals_to_hit": 119,
+          "program": "u'%`^?",
+          "output": "H"
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        },
+        {
+          "hit": false,
+          "evals_to_hit": 400,
+          "program": null,
+          "output": ""
+        }
+      ]
+    }
+  }
+}

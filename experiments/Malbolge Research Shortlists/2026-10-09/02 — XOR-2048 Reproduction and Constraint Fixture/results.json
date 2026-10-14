@@ -1,0 +1,122 @@
+{
+  "provenance": {
+    "compose": "OPENISY COMPOSE 02 \u2014 2026-10-09 (XOR-2048 Reproduction and Constraint Fixture)",
+    "compose_sha256": "d392f38b1d9560a4a536fa69b31c2d481c90021cbc6cb7e8e7e72a1bdc670b72",
+    "artifact": "gpt-6-astra.mal",
+    "artifact_bytes": 2028,
+    "artifact_sha256": "cb28ec05a4d9d8780273ed79eb49a6be4b9fcd7427e68578e5758f860a4a4015",
+    "upstream_manifest": "manifest.json"
+  },
+  "legality": {
+    "valid": true,
+    "byte_count": 2028,
+    "error_count": 0,
+    "errors": []
+  },
+  "constraint_fixture": {
+    "table_offset": 124,
+    "table_len": 772,
+    "table_sha256": "5c97e6d1011d12f9f1789eea9f0382b00e00dbce880e92a9857048d209499df8",
+    "masks": [
+      3,
+      20,
+      21,
+      18,
+      19,
+      24,
+      16,
+      7
+    ],
+    "mutable_cells_per_pass": 5,
+    "passes": 8,
+    "stride": 3,
+    "final_crazy_cells": 2,
+    "router_depth": 4,
+    "target_xor_constant": 81
+  },
+  "oracle_validation": {
+    "total_cases": 256,
+    "passed_cases": 256,
+    "success_rate": 1.0,
+    "constant_step_count": 1148,
+    "all_step_counts": [
+      1148
+    ],
+    "c_elapsed_seconds": 0.0115
+  },
+  "python_spot_check": {
+    "0": {
+      "in": 0,
+      "out": 81,
+      "expected": 81,
+      "match": true,
+      "steps": 1148,
+      "halted": true,
+      "elapsed_s": 0.0012
+    },
+    "1": {
+      "in": 1,
+      "out": 80,
+      "expected": 80,
+      "match": true,
+      "steps": 1148,
+      "halted": true,
+      "elapsed_s": 0.0044
+    },
+    "2": {
+      "in": 2,
+      "out": 83,
+      "expected": 83,
+      "match": true,
+      "steps": 1148,
+      "halted": true,
+      "elapsed_s": 0.0006
+    },
+    "65": {
+      "in": 65,
+      "out": 16,
+      "expected": 16,
+      "match": true,
+      "steps": 1148,
+      "halted": true,
+      "elapsed_s": 0.0006
+    },
+    "81": {
+      "in": 81,
+      "out": 0,
+      "expected": 0,
+      "match": true,
+      "steps": 1148,
+      "halted": true,
+      "elapsed_s": 0.0037
+    },
+    "128": {
+      "in": 128,
+      "out": 209,
+      "expected": 209,
+      "match": true,
+      "steps": 1148,
+      "halted": true,
+      "elapsed_s": 0.0008
+    },
+    "254": {
+      "in": 254,
+      "out": 175,
+      "expected": 175,
+      "match": true,
+      "steps": 1148,
+      "halted": true,
+      "elapsed_s": 0.0009
+    },
+    "255": {
+      "in": 255,
+      "out": 174,
+      "expected": 174,
+      "match": true,
+      "steps": 1148,
+      "halted": true,
+      "elapsed_s": 0.0007
+    }
+  },
+  "verdict": "DEMONSTRATED"
+}

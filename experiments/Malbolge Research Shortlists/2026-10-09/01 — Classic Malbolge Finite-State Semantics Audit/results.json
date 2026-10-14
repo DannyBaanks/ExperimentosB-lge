@@ -1,0 +1,252 @@
+{
+  "experiment": "Classic Malbolge Finite-State Semantics Audit",
+  "provenance": "Malbolge Research Shortlists / 2026-10-09 / Compose 01",
+  "verdict": "DEMONSTRATED",
+  "trit_pair_orbits": [
+    {
+      "initial_pair": [
+        0,
+        0
+      ],
+      "transient_steps": 0,
+      "cycle_length": 4,
+      "cycle_states": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "divides_6": true
+    },
+    {
+      "initial_pair": [
+        0,
+        1
+      ],
+      "transient_steps": 0,
+      "cycle_length": 4,
+      "cycle_states": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "divides_6": true
+    },
+    {
+      "initial_pair": [
+        0,
+        2
+      ],
+      "transient_steps": 1,
+      "cycle_length": 3,
+      "cycle_states": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "divides_6": true
+    },
+    {
+      "initial_pair": [
+        1,
+        0
+      ],
+      "transient_steps": 0,
+      "cycle_length": 4,
+      "cycle_states": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "divides_6": true
+    },
+    {
+      "initial_pair": [
+        1,
+        1
+      ],
+      "transient_steps": 0,
+      "cycle_length": 4,
+      "cycle_states": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "divides_6": true
+    },
+    {
+      "initial_pair": [
+        1,
+        2
+      ],
+      "transient_steps": 0,
+      "cycle_length": 3,
+      "cycle_states": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "divides_6": true
+    },
+    {
+      "initial_pair": [
+        2,
+        0
+      ],
+      "transient_steps": 1,
+      "cycle_length": 4,
+      "cycle_states": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "divides_6": true
+    },
+    {
+      "initial_pair": [
+        2,
+        1
+      ],
+      "transient_steps": 0,
+      "cycle_length": 3,
+      "cycle_states": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "divides_6": true
+    },
+    {
+      "initial_pair": [
+        2,
+        2
+      ],
+      "transient_steps": 0,
+      "cycle_length": 3,
+      "cycle_states": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "divides_6": true
+    }
+  ],
+  "program_tail_audits": [
+    {
+      "path": "/home/danny/Development/ISyCo/workspace/assembly/malbolge/hello_world.malbolge",
+      "stripped_length": 88,
+      "transient_offset": 98,
+      "fundamental_period": 6,
+      "period_divides_6": true,
+      "cross_vm_parity": true
+    },
+    {
+      "path": "/home/danny/Development/ISyCo/workspace/assembly/malbolge/quine_lutter.malbolge",
+      "stripped_length": 59032,
+      "transient_offset": 59042,
+      "fundamental_period": 6,
+      "period_divides_6": true,
+      "cross_vm_parity": true
+    }
+  ]
+}

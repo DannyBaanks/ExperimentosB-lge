@@ -1,0 +1,48 @@
+{
+  "provenance": {
+    "compose": "04 \u2014 Compose \u2014 Cross-Language External Oracle Benchmark (2026-09-25)",
+    "compose_sha256": "1a009f707c477df2d5730ac7d7fde8e4e1ab65695f72faf6fe8b23d0192e68fc",
+    "source_ref": "Acher & J\u00e9z\u00e9quel, arXiv:2606.13763"
+  },
+  "target_spec": {
+    "output_byte": 114,
+    "character": "r"
+  },
+  "representations": [
+    {
+      "language": "Structured_Register_IR",
+      "tier": "high_level_structured",
+      "synthesized_artifact": "[('LOAD_IMM', 114), ('EMIT', 0)]",
+      "evaluations_to_hit": 1,
+      "time_sec": 1.9073486328125e-06,
+      "oracle_verified": true
+    },
+    {
+      "language": "Linear_Tape_VM",
+      "tier": "intermediate_linear_tape",
+      "synthesized_artifact": "++++++++++++++++++++...",
+      "evaluations_to_hit": 4,
+      "time_sec": 9.775161743164062e-06,
+      "oracle_verified": true
+    },
+    {
+      "language": "Malbolge_VM",
+      "tier": "exotic_self_modifying_cryptographic",
+      "synthesized_artifact": "((<`",
+      "evaluations_to_hit": 16,
+      "time_sec": 0.0007464885711669922,
+      "oracle_verified": true
+    }
+  ],
+  "metrics": {
+    "all_passed_shared_oracle": true,
+    "synthesis_cost_ratio_malbolge_vs_structured": 16.0,
+    "delegation_forbidden_check_passed": true
+  },
+  "gates": {
+    "shared_oracle_satisfied_by_all": true,
+    "cost_scales_with_exoticness": true,
+    "zero_forbidden_delegation": true
+  },
+  "verdict": "DEMONSTRATED"
+}

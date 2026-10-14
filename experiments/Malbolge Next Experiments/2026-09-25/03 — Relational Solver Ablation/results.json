@@ -1,0 +1,49 @@
+{
+  "provenance": {
+    "compose": "03 \u2014 Compose \u2014 Relational Solver Ablation (2026-09-25)",
+    "compose_sha256": "9010433dbd700c1814b77d95e0ac2e18a3ac7e0730097494a21946719a45e846"
+  },
+  "evidence_floor": {
+    "relational_catalog_size": 299593,
+    "global_optimality": "NOT_DEMONSTRATED"
+  },
+  "results": {
+    "random_search": {
+      "strategy": "random_search",
+      "target_byte": 72,
+      "call_budget": 120,
+      "evaluator_calls": 120,
+      "verified_hits_count": 0,
+      "success_rate": 0.0,
+      "first_hit_call": null,
+      "best_length": null
+    },
+    "simulated_annealing": {
+      "strategy": "simulated_annealing",
+      "target_byte": 72,
+      "call_budget": 120,
+      "evaluator_calls": 120,
+      "verified_hits_count": 0,
+      "success_rate": 0.0,
+      "first_hit_call": null,
+      "best_length": null
+    },
+    "relational_guided": {
+      "strategy": "relational_guided",
+      "target_byte": 72,
+      "call_budget": 120,
+      "evaluator_calls": 120,
+      "verified_hits_count": 6,
+      "success_rate": 0.05,
+      "first_hit_call": 24,
+      "best_length": 11
+    }
+  },
+  "gates": {
+    "equal_budgets": true,
+    "relational_improves_success_rate": true,
+    "first_hit_observed": true,
+    "catalog_floor_preserved": true
+  },
+  "verdict": "DEMONSTRATED"
+}

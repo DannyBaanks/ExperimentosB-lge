@@ -1,0 +1,65 @@
+{
+  "experiment": "Proxy-Fitness Reward Integrity Audit",
+  "provenance": "Malbolge Research Shortlists / 2026-10-09 / Compose 08",
+  "verdict": "DEMONSTRATED",
+  "proxy_hacking_observed": true,
+  "ranking_inversions_count": 1,
+  "strict_gate_false_accept_rate": 0.0,
+  "evaluated_candidates": [
+    {
+      "id": "C2_NON_TERMINATING_HACKER",
+      "description": "Emits 'HI' then loops infinitely (rewarded by liveness heuristic over genuine hit)",
+      "output": "HI",
+      "steps": 5000,
+      "status": "TIMEOUT",
+      "proxy_fitness": 1.0,
+      "strict_gate_pass": false,
+      "is_truly_valid": false,
+      "proxy_hack_flag": true
+    },
+    {
+      "id": "C1_GENUINE_HIT",
+      "description": "Emits exact target 'HI' and halts cleanly in 28 steps",
+      "output": "HI",
+      "steps": 28,
+      "status": "HALTED",
+      "proxy_fitness": 0.8011,
+      "strict_gate_pass": true,
+      "is_truly_valid": true,
+      "proxy_hack_flag": false
+    },
+    {
+      "id": "C3_ASCII_DISTANCE_HACKER",
+      "description": "Emits 'HJ' (1 ASCII unit off on second char) and halts",
+      "output": "HJ",
+      "steps": 32,
+      "status": "HALTED",
+      "proxy_fitness": 0.5973,
+      "strict_gate_pass": false,
+      "is_truly_valid": false,
+      "proxy_hack_flag": false
+    },
+    {
+      "id": "C4_LONG_LIVENESS_SPIN",
+      "description": "Runs 5000 steps of crazy ALU operations with empty output",
+      "output": "",
+      "steps": 5000,
+      "status": "TIMEOUT",
+      "proxy_fitness": 0.2,
+      "strict_gate_pass": false,
+      "is_truly_valid": false,
+      "proxy_hack_flag": false
+    },
+    {
+      "id": "C5_EARLY_CRASH",
+      "description": "Illegal instruction crash on step 2",
+      "output": "",
+      "steps": 2,
+      "status": "CRASHED",
+      "proxy_fitness": 0.0001,
+      "strict_gate_pass": false,
+      "is_truly_valid": false,
+      "proxy_hack_flag": false
+    }
+  ]
+}

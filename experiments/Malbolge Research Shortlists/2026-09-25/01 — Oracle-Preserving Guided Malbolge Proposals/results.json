@@ -1,0 +1,47 @@
+{
+  "provenance": {
+    "compose": "01 \u2014 Compose \u2014 Oracle-Preserving Guided Malbolge Proposals (2026-09-25)",
+    "compose_sha256": "3e642047a73ae603c863728da3c792579c22828dd79ab2c9966483a1f1b41e7f",
+    "source_ref": "SuperCoder, arXiv:2505.11480"
+  },
+  "config": {
+    "alphabet": [
+      "(",
+      "=",
+      "<",
+      "`",
+      ":",
+      "9"
+    ],
+    "max_len": 4,
+    "target_byte": 114,
+    "budget": 400,
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "aggregate_metrics": {
+    "unguided_avg_first_hit_evals": 18.0,
+    "guided_avg_first_hit_evals": 5.5,
+    "first_hit_speedup_ratio": 3.272727272727273,
+    "unguided_avg_hits": 25.2,
+    "guided_avg_hits": 54.8,
+    "yield_multiplier": 2.1746031746031744,
+    "unique_verified_guided_hits": 78
+  },
+  "gates": {
+    "earlier_first_hit": true,
+    "higher_solution_yield": true,
+    "canonical_oracle_reverification": true
+  },
+  "verdict": "DEMONSTRATED"
+}

@@ -1,0 +1,414 @@
+{
+  "baseline": {
+    "steps": 69547437,
+    "output_hash": "dca8476f8b70c846",
+    "output_len": 59852
+  },
+  "results": [
+    {
+      "cell": 29401,
+      "original_value": 120,
+      "original_op": 5,
+      "illegal_visits": 2125152,
+      "replacement_value": 89,
+      "steps": 19579,
+      "status": "HALTED",
+      "output_len": 0,
+      "output_hash": "e3b0c44298fc1c14",
+      "survives": false
+    },
+    {
+      "cell": 29402,
+      "original_value": 119,
+      "original_op": 5,
+      "illegal_visits": 2125152,
+      "replacement_value": 88,
+      "steps": 25184,
+      "status": "HALTED",
+      "output_len": 2,
+      "output_hash": "cbd5019d312fe537",
+      "survives": false
+    },
+    {
+      "cell": 29403,
+      "original_value": 118,
+      "original_op": 5,
+      "illegal_visits": 2125152,
+      "replacement_value": 87,
+      "steps": 20997,
+      "status": "HALTED",
+      "output_len": 1,
+      "output_hash": "8f11b05da785e43e",
+      "survives": false
+    },
+    {
+      "cell": 29404,
+      "original_value": 117,
+      "original_op": 5,
+      "illegal_visits": 2125152,
+      "replacement_value": 86,
+      "steps": 27990,
+      "status": "HALTED",
+      "output_len": 1,
+      "output_hash": "eee8fd63cd2ea9a9",
+      "survives": false
+    },
+    {
+      "cell": 29405,
+      "original_value": 116,
+      "original_op": 5,
+      "illegal_visits": 2125152,
+      "replacement_value": 85,
+      "steps": 69547437,
+      "status": "HALTED",
+      "output_len": 59852,
+      "output_hash": "dca8476f8b70c846",
+      "survives": true
+    },
+    {
+      "cell": 29406,
+      "original_value": 115,
+      "original_op": 5,
+      "illegal_visits": 2125152,
+      "replacement_value": 84,
+      "steps": 69547437,
+      "status": "HALTED",
+      "output_len": 59852,
+      "output_hash": "dca8476f8b70c846",
+      "survives": true
+    },
+    {
+      "cell": 29407,
+      "original_value": 114,
+      "original_op": 5,
+      "illegal_visits": 2125152,
+      "replacement_value": 83,
+      "steps": 19890,
+      "status": "HALTED",
+      "output_len": 2,
+      "output_hash": "da8e2f20d7ae0842",
+      "survives": false
+    },
+    {
+      "cell": 29408,
+      "original_value": 113,
+      "original_op": 5,
+      "illegal_visits": 2125152,
+      "replacement_value": 82,
+      "steps": 25112,
+      "status": "HALTED",
+      "output_len": 3,
+      "output_hash": "733e208ff04d514a",
+      "survives": false
+    },
+    {
+      "cell": 29409,
+      "original_value": 112,
+      "original_op": 5,
+      "illegal_visits": 2125152,
+      "replacement_value": 81,
+      "steps": 17790,
+      "status": "HALTED",
+      "output_len": 0,
+      "output_hash": "e3b0c44298fc1c14",
+      "survives": false
+    },
+    {
+      "cell": 29411,
+      "original_value": 110,
+      "original_op": 5,
+      "illegal_visits": 2125152,
+      "replacement_value": 79,
+      "steps": 69547437,
+      "status": "HALTED",
+      "output_len": 59852,
+      "output_hash": "dca8476f8b70c846",
+      "survives": true
+    },
+    {
+      "cell": 29490,
+      "original_value": 125,
+      "original_op": 5,
+      "illegal_visits": 1889024,
+      "skip": "no_valid_nop"
+    },
+    {
+      "cell": 29400,
+      "original_value": 121,
+      "original_op": 5,
+      "illegal_visits": 1889024,
+      "replacement_value": 90,
+      "steps": 19616,
+      "status": "HALTED",
+      "output_len": 0,
+      "output_hash": "e3b0c44298fc1c14",
+      "survives": false
+    },
+    {
+      "cell": 29410,
+      "original_value": 111,
+      "original_op": 5,
+      "illegal_visits": 1889024,
+      "replacement_value": 80,
+      "steps": 19607,
+      "status": "HALTED",
+      "output_len": 1,
+      "output_hash": "bb7208bc9b5d7c04",
+      "survives": false
+    },
+    {
+      "cell": 29412,
+      "original_value": 109,
+      "original_op": 5,
+      "illegal_visits": 1889024,
+      "replacement_value": 78,
+      "steps": 27593,
+      "status": "HALTED",
+      "output_len": 0,
+      "output_hash": "e3b0c44298fc1c14",
+      "survives": false
+    },
+    {
+      "cell": 29397,
+      "original_value": 124,
+      "original_op": 5,
+      "illegal_visits": 1062576,
+      "replacement_value": 93,
+      "steps": 20158,
+      "status": "HALTED",
+      "output_len": 3,
+      "output_hash": "5d20af1d4f0cb814",
+      "survives": false
+    },
+    {
+      "cell": 29398,
+      "original_value": 123,
+      "original_op": 5,
+      "illegal_visits": 1062576,
+      "replacement_value": 92,
+      "steps": 69547437,
+      "status": "HALTED",
+      "output_len": 59852,
+      "output_hash": "dca8476f8b70c846",
+      "survives": true
+    },
+    {
+      "cell": 29399,
+      "original_value": 122,
+      "original_op": 5,
+      "illegal_visits": 944512,
+      "replacement_value": 91,
+      "steps": 31020,
+      "status": "HALTED",
+      "output_len": 1,
+      "output_hash": "f8bf310263c1ac3e",
+      "survives": false
+    },
+    {
+      "cell": 29418,
+      "original_value": 121,
+      "original_op": 23,
+      "illegal_visits": 737892,
+      "replacement_value": 72,
+      "steps": 27263,
+      "status": "HALTED",
+      "output_len": 0,
+      "output_hash": "e3b0c44298fc1c14",
+      "survives": false
+    },
+    {
+      "cell": 29419,
+      "original_value": 120,
+      "original_op": 23,
+      "illegal_visits": 737892,
+      "replacement_value": 71,
+      "steps": 21817,
+      "status": "HALTED",
+      "output_len": 0,
+      "output_hash": "e3b0c44298fc1c14",
+      "survives": false
+    },
+    {
+      "cell": 29298,
+      "original_value": 111,
+      "original_op": 81,
+      "illegal_visits": 649354,
+      "skip": "no_valid_nop"
+    },
+    {
+      "cell": 59048,
+      "skip": "not_in_source",
+      "illegal_visits": 590320
+    },
+    {
+      "cell": 29496,
+      "original_value": 119,
+      "original_op": 5,
+      "illegal_visits": 472256,
+      "replacement_value": 88,
+      "steps": 69547437,
+      "status": "HALTED",
+      "output_len": 59852,
+      "output_hash": "dca8476f8b70c846",
+      "survives": true
+    },
+    {
+      "cell": 29503,
+      "original_value": 112,
+      "original_op": 5,
+      "illegal_visits": 354160,
+      "replacement_value": 81,
+      "steps": 23012,
+      "status": "HALTED",
+      "output_len": 1,
+      "output_hash": "bd4fc42a21f1f860",
+      "survives": false
+    },
+    {
+      "cell": 29388,
+      "original_value": 115,
+      "original_op": 81,
+      "illegal_visits": 236112,
+      "skip": "no_valid_nop"
+    },
+    {
+      "cell": 29110,
+      "original_value": 70,
+      "original_op": 40,
+      "illegal_visits": 177080,
+      "skip": "no_valid_nop"
+    },
+    {
+      "cell": 29502,
+      "original_value": 113,
+      "original_op": 5,
+      "illegal_visits": 177080,
+      "replacement_value": 82,
+      "steps": 69547437,
+      "status": "HALTED",
+      "output_len": 59852,
+      "output_hash": "dca8476f8b70c846",
+      "survives": true
+    },
+    {
+      "cell": 29415,
+      "original_value": 124,
+      "original_op": 23,
+      "illegal_visits": 177080,
+      "replacement_value": 75,
+      "steps": 40464,
+      "status": "HALTED",
+      "output_len": 12,
+      "output_hash": "a85c66b53834db0c",
+      "survives": false
+    },
+    {
+      "cell": 29417,
+      "original_value": 122,
+      "original_op": 23,
+      "illegal_visits": 177080,
+      "replacement_value": 73,
+      "steps": 29714,
+      "status": "HALTED",
+      "output_len": 2,
+      "output_hash": "3b64db95cb55c763",
+      "survives": false
+    },
+    {
+      "cell": 29482,
+      "original_value": 115,
+      "original_op": 81,
+      "illegal_visits": 118064,
+      "skip": "no_valid_nop"
+    },
+    {
+      "cell": 29392,
+      "original_value": 111,
+      "original_op": 81,
+      "illegal_visits": 118064,
+      "skip": "no_valid_nop"
+    },
+    {
+      "cell": 29395,
+      "original_value": 126,
+      "original_op": 5,
+      "illegal_visits": 118064,
+      "skip": "no_valid_nop"
+    },
+    {
+      "cell": 29416,
+      "original_value": 123,
+      "original_op": 23,
+      "illegal_visits": 88540,
+      "replacement_value": 74,
+      "steps": 69547437,
+      "status": "HALTED",
+      "output_len": 59852,
+      "output_hash": "dca8476f8b70c846",
+      "survives": true
+    },
+    {
+      "cell": 29294,
+      "original_value": 115,
+      "original_op": 81,
+      "illegal_visits": 88540,
+      "skip": "no_valid_nop"
+    },
+    {
+      "cell": 29077,
+      "original_value": 103,
+      "original_op": 40,
+      "illegal_visits": 39356,
+      "replacement_value": 37,
+      "steps": 69547439,
+      "status": "HALTED",
+      "output_len": 59852,
+      "output_hash": "7dc42f378796c711",
+      "survives": false
+    },
+    {
+      "cell": 59047,
+      "skip": "not_in_source",
+      "illegal_visits": 29508
+    },
+    {
+      "cell": 29049,
+      "original_value": 37,
+      "original_op": 40,
+      "illegal_visits": 8199,
+      "replacement_value": 65,
+      "steps": 203801,
+      "status": "HALTED",
+      "output_len": 152,
+      "output_hash": "921d5f20873d97c3",
+      "survives": false
+    },
+    {
+      "cell": 29106,
+      "original_value": 74,
+      "original_op": 40,
+      "illegal_visits": 1640,
+      "skip": "no_valid_nop"
+    },
+    {
+      "cell": 29200,
+      "original_value": 74,
+      "original_op": 40,
+      "illegal_visits": 1,
+      "skip": "no_valid_nop"
+    },
+    {
+      "cell": 29486,
+      "original_value": 111,
+      "original_op": 81,
+      "illegal_visits": 1,
+      "skip": "no_valid_nop"
+    }
+  ],
+  "summary": {
+    "total": 39,
+    "survives": 7,
+    "broken": 19,
+    "skipped": 13
+  }
+}

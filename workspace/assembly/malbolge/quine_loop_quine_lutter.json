@@ -1,0 +1,122 @@
+{
+  "version": "1",
+  "source": "quine_lutter.malbolge",
+  "run": {
+    "status": "HALTED",
+    "steps": 69547437,
+    "output_len": 59852
+  },
+  "outs": 59852,
+  "first_out_step": 28316,
+  "last_out_step": 69547432,
+  "interval_samples": [
+    {
+      "sample": "interval#0",
+      "span": 1217,
+      "cells_visited": 56,
+      "noise": 636,
+      "noise_pct": 52.259654889071484,
+      "min_c": 0,
+      "max_c": 59048
+    },
+    {
+      "sample": "interval#1",
+      "span": 1137,
+      "cells_visited": 55,
+      "noise": 617,
+      "noise_pct": 54.26561125769569,
+      "min_c": 0,
+      "max_c": 59048
+    },
+    {
+      "sample": "interval#2",
+      "span": 1137,
+      "cells_visited": 55,
+      "noise": 617,
+      "noise_pct": 54.26561125769569,
+      "min_c": 0,
+      "max_c": 59048
+    },
+    {
+      "sample": "interval#3",
+      "span": 1217,
+      "cells_visited": 56,
+      "noise": 636,
+      "noise_pct": 52.259654889071484,
+      "min_c": 0,
+      "max_c": 59048
+    },
+    {
+      "sample": "interval#4",
+      "span": 1137,
+      "cells_visited": 55,
+      "noise": 616,
+      "noise_pct": 54.177660510114336,
+      "min_c": 0,
+      "max_c": 59048
+    },
+    {
+      "sample": "interval#5",
+      "span": 1139,
+      "cells_visited": 57,
+      "noise": 617,
+      "noise_pct": 54.17032484635645,
+      "min_c": 0,
+      "max_c": 59048
+    },
+    {
+      "sample": "interval#6",
+      "span": 1297,
+      "cells_visited": 56,
+      "noise": 655,
+      "noise_pct": 50.501156515034694,
+      "min_c": 0,
+      "max_c": 59048
+    },
+    {
+      "sample": "interval#7",
+      "span": 1137,
+      "cells_visited": 55,
+      "noise": 617,
+      "noise_pct": 54.26561125769569,
+      "min_c": 0,
+      "max_c": 59048
+    },
+    {
+      "sample": "interval#8",
+      "span": 1137,
+      "cells_visited": 55,
+      "noise": 617,
+      "noise_pct": 54.26561125769569,
+      "min_c": 0,
+      "max_c": 59048
+    },
+    {
+      "sample": "interval#9",
+      "span": 1217,
+      "cells_visited": 56,
+      "noise": 636,
+      "noise_pct": 52.259654889071484,
+      "min_c": 0,
+      "max_c": 59048
+    },
+    {
+      "sample": "interval#medio",
+      "span": 1137,
+      "cells_visited": 55,
+      "noise": 617,
+      "noise_pct": 54.26561125769569,
+      "min_c": 0,
+      "max_c": 59048
+    },
+    {
+      "sample": "interval#final",
+      "span": 37,
+      "cells_visited": 16,
+      "noise": 3,
+      "noise_pct": 8.108108108108109,
+      "min_c": 29077,
+      "max_c": 29505
+    }
+  ]
+}

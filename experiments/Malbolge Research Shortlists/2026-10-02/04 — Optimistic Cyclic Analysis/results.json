@@ -1,0 +1,113 @@
+{
+  "provenance": {
+    "compose": "04 \u2014 Compose \u2014 Optimistic Cyclic Analysis (2026-10-02)",
+    "compose_sha256": "62f486676e8536b2cba1185e802c0b54f571b5e5d0001fcde81f9c8eebaf00e4",
+    "source_ref": "Arbore, Cheung, Willsey. PLDI 2026, DOI 10.1145/3808302"
+  },
+  "graph_config": {
+    "name": "Malbolge_Crazy_Cycle",
+    "node_count": 3,
+    "initial_a": 0,
+    "target_invariant_property": "A == 0"
+  },
+  "concrete_oracle": {
+    "trace_steps": 10,
+    "concrete_trace": [
+      {
+        "step": 0,
+        "cycle": 0,
+        "node_id": 0,
+        "a": 0,
+        "d": 0
+      },
+      {
+        "step": 1,
+        "cycle": 0,
+        "node_id": 1,
+        "a": 0,
+        "d": 1
+      },
+      {
+        "step": 2,
+        "cycle": 0,
+        "node_id": 2,
+        "a": 29524,
+        "d": 1
+      },
+      {
+        "step": 3,
+        "cycle": 1,
+        "node_id": 0,
+        "a": 29524,
+        "d": 1
+      },
+      {
+        "step": 4,
+        "cycle": 1,
+        "node_id": 1,
+        "a": 29524,
+        "d": 10
+      },
+      {
+        "step": 5,
+        "cycle": 1,
+        "node_id": 2,
+        "a": 0,
+        "d": 10
+      }
+    ],
+    "cycle1_a_values": [
+      29524,
+      29524,
+      0
+    ],
+    "invariant_holds": false
+  },
+  "naive_optimistic": {
+    "analysis": "naive_optimistic",
+    "asserts_invariant_holds": true,
+    "justification": "optimistic_cyclic_backedge_assumption"
+  },
+  "sound_fixed_point": {
+    "analysis": "sound_cyclic_fixed_point",
+    "iterations_to_convergence": 3,
+    "reachable_states_per_node": {
+      "0": [
+        0,
+        29524
+      ],
+      "1": [
+        0,
+        29524
+      ],
+      "2": [
+        0,
+        29524
+      ]
+    },
+    "all_reachable_a": [
+      0,
+      29524
+    ]
+  },
+  "metrics": {
+    "counterexample_exposed": true,
+    "sound_oracle_parity": true,
+    "convergence_iterations": 3
+  },
+  "counterexample_witness": {
+    "property": "A == 0",
+    "naive_optimistic_claim": true,
+    "concrete_oracle_actual": false,
+    "divergent_state": {
+      "cycle": 1,
+      "observed_a": 29524
+    }
+  },
+  "gates": {
+    "unsoundness_counterexample_exposed": true,
+    "sound_analysis_oracle_agreement": true,
+    "fixed_point_convergence": true
+  },
+  "verdict": "DEMONSTRATED"
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "Offline Presynthesis Oracle",
+  "provenance": "Malbolge Research Shortlists / 2026-10-09 / Compose 06",
+  "verdict": "DEMONSTRATED",
+  "total_candidates": 216,
+  "soundness_verified": true,
+  "false_negatives_count": 0,
+  "exhaustive": {
+    "accepted_count": 0,
+    "vm_evaluations": 216,
+    "runtime_seconds": 27.4301
+  },
+  "presynthesis": {
+    "accepted_count": 0,
+    "vm_evaluations": 2,
+    "pruned_candidates": 214,
+    "pruning_rate_pct": 99.07,
+    "runtime_seconds": 0.2038,
+    "speedup_factor": 134.61
+  }
+}

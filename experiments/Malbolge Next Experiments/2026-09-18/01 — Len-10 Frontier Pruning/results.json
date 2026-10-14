@@ -1,0 +1,47 @@
+{
+  "provenance": {
+    "compose": "01 \u2014 Compose \u2014 Len-10 Frontier Pruning (2026-09-18)",
+    "compose_sha256": "16739c9a6725878426e2d52e2d850103461d0dde3aac921ea188565bb41f2834"
+  },
+  "evidence_floor": {
+    "len_7": {
+      "candidates": 2097152,
+      "hits": 0,
+      "status": "DEMONSTRATED"
+    },
+    "len_8": {
+      "candidates": 16777216,
+      "hits": 0,
+      "status": "DEMONSTRATED"
+    },
+    "len_9": {
+      "candidates": 134217728,
+      "hits": 0,
+      "status": "DEMONSTRATED"
+    },
+    "len_10": {
+      "candidates": 1073741824,
+      "hits": 0,
+      "wall_seconds": 10252.8,
+      "rate_progs_per_sec": 104727,
+      "status": "DEMONSTRATED"
+    },
+    "len_11_exhaustive": "NOT_DEMONSTRATED"
+  },
+  "shard_metrics": {
+    "candidates": 250,
+    "baseline_steps": 6458,
+    "pruned_steps": 5914,
+    "pruned_candidates": 163,
+    "step_savings": 544,
+    "savings_pct": 8.42366057602973,
+    "false_negatives": 0
+  },
+  "gates": {
+    "zero_false_negatives": true,
+    "identical_hit_set": true,
+    "step_savings_positive": true,
+    "evidence_floor_preserved": true
+  },
+  "verdict": "DEMONSTRATED"
+}

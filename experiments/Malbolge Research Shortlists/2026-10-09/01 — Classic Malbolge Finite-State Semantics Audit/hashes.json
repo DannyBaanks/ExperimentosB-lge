@@ -1,0 +1,9 @@
+{
+  "COMPOSE_PROVENANCE.md": "d135e7280efc5c54976e60ce706431dcb3a5dc471f06c803c4bb81f85e5d6133",
+  "GUIA.md": "d4a49d9f4439a76a8f3b1acbb75063b2cbdf8fdb6cdf027b3c37be407f424efd",
+  "REPORT.md": "59619ee95cb49302ebee82ed41f99dcbeb7376ec86a2b9d77fb6636992963c92",
+  "audit_semantics.py": "0d74882b3cbb99a10c2f11af4b8efbb7e5d5cf087cb4e6e7b09fabf839b02bd3",
+  "results.json": "b314aa9c53cc9022230900d8f78ab048df47a5fc61badef46d59a296b8f0e872",
+  "test_semantics_audit.py": "99334133ce9ac24458f5e41c43c7d31d83cadff5ccb0d360092292a60c505664",
+  "PROVENANCE_COMPOSE_DOCX": "d37cc3ce5f3909b0ff385f5dc88b133a188658b35179a5b0dac8a50580287e2c"
+}

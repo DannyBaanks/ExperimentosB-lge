@@ -1,0 +1,135 @@
+{
+  "provenance": {
+    "compose": "OPENISY COMPOSE 04 \u2014 2026-10-09 (Output-Byte Equivalence Slicing)",
+    "compose_sha256": "ac6747209c4e19014ce33d4e2dda124cf1745821b6ce291195cb4ca59c395089",
+    "source_paper": "Biberstein, Devietti, Naik, 'The Output-Space Hypothesis', arXiv:2609.19611",
+    "baseline_source": "workspace/assembly/malbolge/hello_world.malbolge",
+    "baseline_sha256": "c8a95363dbe2e997192834cf42a6f317be4a3bef93263e026300bc8243e77601"
+  },
+  "metrics": {
+    "total_candidates": 6,
+    "false_positives": 0,
+    "counterexample_recall": 1.0,
+    "whole_trace_total_ops": 561,
+    "sliced_total_ops": 46,
+    "overall_ops_reduction_ratio": 12.2,
+    "average_slice_ratio_pct": 6.12
+  },
+  "candidates": [
+    {
+      "id": "base_identity",
+      "category": "identical",
+      "oracle_output_match": true,
+      "whole_trace": {
+        "equivalent": true,
+        "comparisons": 240,
+        "first_diff_step": null,
+        "time_us": 20.95
+      },
+      "backward_slice": {
+        "equivalent": true,
+        "sliced_steps": 3,
+        "comparisons": 11,
+        "first_diff_step": null,
+        "time_us": 45.87
+      },
+      "eval_speedup_ops": 21.82
+    },
+    {
+      "id": "inert_cell_mod",
+      "category": "inert_mutation",
+      "oracle_output_match": true,
+      "whole_trace": {
+        "equivalent": false,
+        "comparisons": 30,
+        "first_diff_step": 5,
+        "time_us": 24.48
+      },
+      "backward_slice": {
+        "equivalent": true,
+        "sliced_steps": 3,
+        "comparisons": 11,
+        "first_diff_step": null,
+        "time_us": 58.52
+      },
+      "eval_speedup_ops": 2.73
+    },
+    {
+      "id": "inert_tail_mod",
+      "category": "inert_mutation",
+      "oracle_output_match": true,
+      "whole_trace": {
+        "equivalent": true,
+        "comparisons": 240,
+        "first_diff_step": null,
+        "time_us": 37.68
+      },
+      "backward_slice": {
+        "equivalent": true,
+        "sliced_steps": 3,
+        "comparisons": 11,
+        "first_diff_step": null,
+        "time_us": 85.22
+      },
+      "eval_speedup_ops": 21.82
+    },
+    {
+      "id": "active_op_corrupt_entry",
+      "category": "counterexample",
+      "oracle_output_match": false,
+      "whole_trace": {
+        "equivalent": false,
+        "comparisons": 5,
+        "first_diff_step": 0,
+        "time_us": 6.3
+      },
+      "backward_slice": {
+        "equivalent": false,
+        "sliced_steps": 3,
+        "comparisons": 1,
+        "first_diff_step": 0,
+        "time_us": 26.72
+      },
+      "eval_speedup_ops": 5.0
+    },
+    {
+      "id": "corrupt_output_to_halt",
+      "category": "counterexample",
+      "oracle_output_match": false,
+      "whole_trace": {
+        "equivalent": false,
+        "comparisons": 16,
+        "first_diff_step": 3,
+        "time_us": 7.06
+      },
+      "backward_slice": {
+        "equivalent": false,
+        "sliced_steps": 0,
+        "comparisons": 1,
+        "first_diff_step": 0,
+        "time_us": 13.71
+      },
+      "eval_speedup_ops": 16.0
+    },
+    {
+      "id": "arithmetic_cell_mod",
+      "category": "counterexample",
+      "oracle_output_match": true,
+      "whole_trace": {
+        "equivalent": false,
+        "comparisons": 30,
+        "first_diff_step": 5,
+        "time_us": 7.27
+      },
+      "backward_slice": {
+        "equivalent": true,
+        "sliced_steps": 3,
+        "comparisons": 11,
+        "first_diff_step": null,
+        "time_us": 31.58
+      },
+      "eval_speedup_ops": 2.73
+    }
+  ],
+  "verdict": "DEMONSTRATED"
+}

@@ -1,0 +1,12 @@
+{
+  "COMPOSE_PROVENANCE.md": "08b950967361bb6eb05cbb294febfb7e9465f5ab7541a313d9d850fcbcb62239",
+  "GUIA.md": "5c1e483aaa1b08ea1c8b2b95c1915c068388dc1b4002d6faa30ff34d218e39ee",
+  "REPORT.md": "008d82daa2acc5373d58588a07c15a59f17ce4109d3ce1312ac25ba3bf854dbe",
+  "baseline.json": "18c74f9732423ca93b01ca820342fc1aa2b90149369f94afde1bd103c8eafdcb",
+  "dual_cell_discriminator.py": "67c464606552b0a26c3ec23cd0aa0b89595e644ce16a858dfed6890fd2d38a1f",
+  "results.json": "f290f3cb9f38a5c636c51e577b1b5d7a256ff4292f922680be851400cbf1e3e1",
+  "test_dual_cell_discriminator.py": "b8d2cac9b74c861dc917115460d7b3b4ffc3de9d6d965c3aa83f8ff9eeab1e40",
+  "tracer_discriminator.c": "156ba2472b44401491f54088293efa6b9836d678aaf1184c64143b255da8d642",
+  "PROVENANCE_COMPOSE_DOCX": "22e93e8e414ab55bf842fe6485b80ba5282f041c986b3427cb35b7cadcfd6af2",
+  "CANONICAL_QUINE_SOURCE": "dca8476f8b70c8462c32f661f63c5f8b1ad6c33946b3c7a9a35186c824117d98"
+}

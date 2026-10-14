@@ -1,0 +1,54 @@
+{
+  "provenance": {
+    "compose": "OPENISY COMPOSE 09 \u2014 2026-10-09 (SEMANTIC EPOCH FRONTIER BRIDGE)",
+    "compose_sha256": "988dc2220ff80e2a35af025ff1550fea954dd8d4dc6222f1117e8b5fdabf382e",
+    "historical_evidence_floor_sha256": "2a31218d446c224b8a46536af24cff93ef94f2eba5a88e7f8843e17ef7cd2b44",
+    "current_evidence_floor_sha256": "85d049400750604d738080f4e02e9922163ce114c7fc4418d9755c8d49bede6d"
+  },
+  "shard_metrics": {
+    "shard_size": 202,
+    "prefix_families": 10,
+    "branching": 20,
+    "positive_controls": 2
+  },
+  "evaluations": {
+    "historical_epoch": {
+      "steps": 13549,
+      "hits": 1,
+      "elapsed_s": 12.7423,
+      "stop_counts": {
+        "HALT": 195,
+        "FUEL_EXHAUSTED": 7
+      }
+    },
+    "current_epoch_baseline": {
+      "steps": 13549,
+      "hits": 1,
+      "elapsed_s": 13.3168,
+      "stop_counts": {
+        "HALT": 196,
+        "FUEL_EXHAUSTED": 6
+      }
+    },
+    "current_epoch_pruned": {
+      "steps": 12640,
+      "hits": 1,
+      "pruned_candidates": 11,
+      "dead_prefixes": 3,
+      "elapsed_s": 10.9058,
+      "stop_counts": {
+        "HALT": 185,
+        "FUEL_EXHAUSTED": 6,
+        "PRUNED_PREFIX": 11
+      }
+    }
+  },
+  "gates": {
+    "false_negatives": 0,
+    "false_positives": 0,
+    "step_reduction_pct": 6.71,
+    "wall_time_speedup": 1.22,
+    "soundness_pass": true
+  },
+  "verdict": "DEMONSTRATED"
+}

@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "compose": "01 \u2014 Compose \u2014 Len-11 Pruning Shard (2026-09-25)",
+    "compose_sha256": "668cb8ec02d792f65e351284b6ae4fd0f7355c70c32c3a3c25618f0809ff4281"
+  },
+  "shard_info": {
+    "size": 250,
+    "seed": 20260925,
+    "target": [
+      72
+    ]
+  },
+  "baseline": {
+    "hits_count": 0,
+    "hit_codes": [],
+    "total_steps": 8186,
+    "elapsed_seconds": 0.01852130889892578
+  },
+  "pruned": {
+    "hits_count": 0,
+    "hit_codes": [],
+    "total_steps": 7143,
+    "pruned_count": 177,
+    "elapsed_seconds": 0.018184185028076172
+  },
+  "metrics": {
+    "false_negatives_count": 0,
+    "step_savings": 1043,
+    "savings_pct": 12.741265575372587
+  },
+  "gates": {
+    "zero_false_negatives": true,
+    "identical_hit_set": true,
+    "positive_step_savings": true
+  },
+  "verdict": "DEMONSTRATED"
+}

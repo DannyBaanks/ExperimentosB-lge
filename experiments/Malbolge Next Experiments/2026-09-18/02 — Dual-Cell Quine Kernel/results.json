@@ -1,0 +1,71 @@
+{
+  "provenance": {
+    "compose": "02 \u2014 Compose \u2014 Dual-Cell Quine Kernel (2026-09-18)",
+    "compose_sha256": "09836e52b022cdf2d8ca146090d1b025653d0faf5c6d43c45788e9eb69c2b4e3"
+  },
+  "evidence_floor": {
+    "lutter_chars": 59852,
+    "lutter_code": 59032,
+    "lutter_newlines": 820,
+    "lutter_halt_steps": 69547437,
+    "region_bytes": 29516,
+    "a_only_halt_steps": 4354,
+    "cell_printable_d": 29454,
+    "cell_newline_d": 29282,
+    "quine_le_512_status": "NOT_DEMONSTRATED"
+  },
+  "search_results": {
+    "dual_cell": [
+      {
+        "length": 32,
+        "grammar": "dual_cell",
+        "candidates_tested": 60,
+        "exact_quine_found": false,
+        "max_prefix_match": 0
+      },
+      {
+        "length": 64,
+        "grammar": "dual_cell",
+        "candidates_tested": 60,
+        "exact_quine_found": false,
+        "max_prefix_match": 0
+      },
+      {
+        "length": 128,
+        "grammar": "dual_cell",
+        "candidates_tested": 60,
+        "exact_quine_found": false,
+        "max_prefix_match": 0
+      }
+    ],
+    "random_control": [
+      {
+        "length": 32,
+        "grammar": "random_control",
+        "candidates_tested": 60,
+        "exact_quine_found": false,
+        "max_prefix_match": 0
+      },
+      {
+        "length": 64,
+        "grammar": "random_control",
+        "candidates_tested": 60,
+        "exact_quine_found": false,
+        "max_prefix_match": 0
+      },
+      {
+        "length": 128,
+        "grammar": "random_control",
+        "candidates_tested": 60,
+        "exact_quine_found": false,
+        "max_prefix_match": 0
+      }
+    ]
+  },
+  "gates": {
+    "evidence_floor_preserved": true,
+    "zero_false_positive_quines": true,
+    "budget_compliance": true
+  },
+  "verdict": "DEMONSTRATED"
+}

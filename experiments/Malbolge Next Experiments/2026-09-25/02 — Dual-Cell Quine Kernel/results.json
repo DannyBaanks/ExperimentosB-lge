@@ -1,0 +1,76 @@
+{
+  "provenance": {
+    "compose": "02 \u2014 Compose \u2014 Dual-Cell Quine Kernel (2026-09-25)",
+    "compose_sha256": "507048d511a55c14812cfeb9796268ee4339798b9ad072cf0fb72f021db4e583"
+  },
+  "evidence_floor": {
+    "lutter_raw_bytes": 59852,
+    "lutter_code_bytes": 59032,
+    "lutter_newline_bytes": 820,
+    "lutter_halt_steps": 69547437,
+    "cell_printable_d": 29454,
+    "cell_newline_d": 29282,
+    "quine_le_512_status": "NOT_DEMONSTRATED"
+  },
+  "search_results": {
+    "dual_cell_constrained": [
+      {
+        "length_bytes": 32,
+        "grammar_type": "dual_cell_constrained",
+        "candidates_tested": 80,
+        "exact_quine_found": false,
+        "max_self_match_prefix": 0,
+        "self_match_ratio": 0.0
+      },
+      {
+        "length_bytes": 64,
+        "grammar_type": "dual_cell_constrained",
+        "candidates_tested": 80,
+        "exact_quine_found": false,
+        "max_self_match_prefix": 0,
+        "self_match_ratio": 0.0
+      },
+      {
+        "length_bytes": 128,
+        "grammar_type": "dual_cell_constrained",
+        "candidates_tested": 80,
+        "exact_quine_found": false,
+        "max_self_match_prefix": 0,
+        "self_match_ratio": 0.0
+      }
+    ],
+    "unconstrained_random": [
+      {
+        "length_bytes": 32,
+        "grammar_type": "unconstrained_random",
+        "candidates_tested": 80,
+        "exact_quine_found": false,
+        "max_self_match_prefix": 0,
+        "self_match_ratio": 0.0
+      },
+      {
+        "length_bytes": 64,
+        "grammar_type": "unconstrained_random",
+        "candidates_tested": 80,
+        "exact_quine_found": false,
+        "max_self_match_prefix": 0,
+        "self_match_ratio": 0.0
+      },
+      {
+        "length_bytes": 128,
+        "grammar_type": "unconstrained_random",
+        "candidates_tested": 80,
+        "exact_quine_found": false,
+        "max_self_match_prefix": 0,
+        "self_match_ratio": 0.0
+      }
+    ]
+  },
+  "gates": {
+    "evidence_floor_preserved": true,
+    "zero_false_positive_quines": true,
+    "structural_signal_measured": true,
+    "byte_exact_check_enforced": true
+  },
+  "verdict": "DEMONSTRATED"
+}

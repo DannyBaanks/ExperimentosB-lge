@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "compose": "03 \u2014 Compose \u2014 Solver Optimizer Ablation (2026-09-18)",
+    "compose_sha256": "c90cc64e1198403f5dbd947a0ba9e476bcfc6e2ee41ddf8beef5376b2de48e7e"
+  },
+  "evidence_floor": {
+    "lou_scheffer_constraint_solver": "NOT_DEMONSTRATED",
+    "cross_verifiers": [
+      "AutobolgeVerifier",
+      "WalbolgeVerifier"
+    ]
+  },
+  "ablation_results": {
+    "exhaustive_control": {
+      "strategy": "exhaustive_control",
+      "target_byte": 25,
+      "budget": 100,
+      "evaluator_calls": 100,
+      "verified_hits_count": 0,
+      "first_hit_call": null,
+      "success_rate": 0.0,
+      "best_length": null
+    },
+    "simulated_annealing": {
+      "strategy": "simulated_annealing",
+      "target_byte": 25,
+      "budget": 100,
+      "evaluator_calls": 100,
+      "verified_hits_count": 0,
+      "first_hit_call": null,
+      "success_rate": 0.0,
+      "best_length": null
+    },
+    "semantic_guided": {
+      "strategy": "semantic_guided",
+      "target_byte": 25,
+      "budget": 100,
+      "evaluator_calls": 100,
+      "verified_hits_count": 16,
+      "first_hit_call": 5,
+      "success_rate": 0.16,
+      "best_length": 11
+    }
+  },
+  "gates": {
+    "equal_budgets": true,
+    "semantic_improves_success_rate": true,
+    "first_hit_observed": true,
+    "cross_verification_enforced": true
+  },
+  "verdict": "DEMONSTRATED"
+}

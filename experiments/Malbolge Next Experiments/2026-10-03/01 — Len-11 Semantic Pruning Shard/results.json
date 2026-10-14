@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "compose": "01 \u2014 Compose \u2014 Len-11 Semantic Pruning Shard (2026-10-03)",
+    "compose_sha256": "d01340d854bb530909481fe059384e5eddd2c09917d8a391b4e5926e10616d12"
+  },
+  "shard_manifest": {
+    "shard_size": 300,
+    "seed": 1103,
+    "target": [
+      72
+    ]
+  },
+  "baseline": {
+    "hits_count": 0,
+    "hit_codes": [],
+    "total_steps": 9722,
+    "elapsed_seconds": 14.853577613830566
+  },
+  "pruned": {
+    "hits_count": 0,
+    "hit_codes": [],
+    "total_steps": 8633,
+    "pruned_count": 206,
+    "elapsed_seconds": 15.084386825561523
+  },
+  "metrics": {
+    "false_negatives_count": 0,
+    "step_savings": 1089,
+    "step_savings_pct": 11.201398889117465
+  },
+  "gates": {
+    "zero_false_negatives": true,
+    "identical_hit_set": true,
+    "positive_step_savings": true
+  },
+  "verdict": "DEMONSTRATED"
+}
